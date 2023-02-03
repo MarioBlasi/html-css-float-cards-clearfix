@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: white;
+    font-family: cursive;
+}
+  
+/* HEADER */
+header,
+nav {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+  
+h1 {
+    color: rgb(229, 49, 112);
+}
+  
+/* NAV */
+p {
+    margin-bottom: 1rem;
+}
+  
+/* MAIN */
+.container {
+    margin: auto;
+    max-width: 1170px;
+}
+  
+/* SECTION CARD 1 e 2*/
+  
+.card {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    box-shadow:10px 0px 13px -12px #000000;
+    margin-bottom: 50px;
+}
+  
+img {
+    height: 125px;
+    width: 30%;
+}
+
+h3,
+h5 {
+    color: white;
+}
+  
+h6 {
+    color: rgb(69, 175, 208);
+}
+
+.text {
+    background-color: black;
+    width: 70%;
+    padding: 10px;
+    float: right;
+    line-height: 35px;
+}
+  
+
+  
+/*CLEARFIX*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
